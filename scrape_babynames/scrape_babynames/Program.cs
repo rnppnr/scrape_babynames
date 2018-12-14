@@ -112,6 +112,5 @@ namespace scrape_babynames
             }
 
         }
-
     }
 }
