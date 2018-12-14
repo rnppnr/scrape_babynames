@@ -34,8 +34,8 @@ namespace scrape_babynames
                     StreamReader reader = new StreamReader(response.GetResponseStream(), Encoding.UTF8);
                     string result = reader.ReadToEnd();
 
-                    string boysSearch  = "#0060bf;";
-                    string girlsSearch = "#ff007f;";
+                    string boysSearch  = "#0060bf;"; // boys are blue
+                    string girlsSearch = "#ff007f;"; // girls are pink
                     string line;
 
                     StringReader sr = new StringReader(result);
